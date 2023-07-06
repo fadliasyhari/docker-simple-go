@@ -57,7 +57,7 @@ func UpdateProductHandler(c *gin.Context) {
 	}
 	if index == -1 {
 		c.JSON(http.StatusNotFound, gin.H{
-			"error": "Product not found!",
+			"error": "Product not found!!",
 		})
 		return
 	}
