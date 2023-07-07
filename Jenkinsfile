@@ -4,7 +4,7 @@ pipeline {
         GIT_URL = 'https://github.com/fadliasyhari/docker-simple-go.git'
         BRANCH = 'tes-pipeline'
         IMAGE = 'my-golang-test'
-        CONTAINER = 'my-golang-test-app'
+        CONTAINER = 'my-golang-test-app1'
         DOCKER_APP = 'docker'
         DB_HOST = 'product-db'
         DB_USER = 'postgres'
