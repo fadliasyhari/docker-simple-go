@@ -3,7 +3,7 @@ services:
   backend:
     build: 
       dockerfile: Dockerfile
-    container_name: go-backend
+    container_name: go-backend1
     depends_on:
       - db
     environment:
@@ -18,7 +18,7 @@ services:
       - db-network
   db:
     image: postgres:alpine3.17
-    container_name: backend-db
+    container_name: backend-db1
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=password
